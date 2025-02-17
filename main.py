@@ -1,5 +1,4 @@
 import math
-
 class Punto:
     def __init__(self, x, y):
         self.x = x
@@ -12,7 +11,6 @@ class Punto:
         return f"(r: {r}, θ: {theta} rad)"
     def __str__(self):
         return f"Punto en coordenadas cartesianas: {self.coord_cartesianas()}"
-
 if __name__ == "__main__":
     p = Punto(6,2 )
     print(p)
